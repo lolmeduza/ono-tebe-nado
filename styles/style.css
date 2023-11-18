@@ -1,1 +1,81 @@
-/* место для вашего кода */
+body {
+  border: solid #5b6dcd 10px;
+  width: 1440px;
+  height: 2844px;
+  justify-content: center;
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 24px 20px;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+  flex-shrink: 0;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__links-list {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.7fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.header__links-list-item {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: circle;
+  text-decoration: underline;
+}
+.header__link_active {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header__cover {
+  box-sizing: unset;
+  display: grid;
+  width: 1440px;
+  height: 757px;
+  flex-shrink: 0;
+  padding-top: 93px;
+
+}
+.background {
+
+  position: relative;
+  display: grid;
+  background-color: #000;
+  padding-top: 93px;
+  width: 100%;
+  opacity: 0.6;
+}
+.span {display: grid;
+}

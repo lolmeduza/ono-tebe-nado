@@ -5,6 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/global.css" />
   </head>
-  <body></body>
+  <body>
+    <layout class="layout"></layout>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__link_active">
+            <a class="header__link" href="#0">Главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo">
+        <img
+          class="header__logo-image"
+          alt="Логотип проекта"
+          src="images/logo-black.svg"
+        />
+      </a>
+      <address class="header__address">
+        <a href="tel:+70000000">+7(000)000-00-00</a>
+        <a href="mailto:mail@example.com">mail@example.com</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
+
+      <!--<lots class="header__lots lots">
+        <img
+          class="header__lots-image "
+          alt="Лоты проекта"
+          src="/ono-tebe-nado/images/card-lot-01.jpg"
+        />
+      </lots>
+      <lots class="header__lots lots">
+        <img
+          class="header__lots-image"
+          alt="Лоты проекта"
+          src="/ono-tebe-nado/images/card-lot-02.jpg"
+        />
+      </lots>
+      <lots class="header__lots lots">
+        <img
+          class="header__lots-image"
+          alt="Лоты проекта"
+          src="/ono-tebe-nado/images/card-lot-03.jpg"
+        />
+      </lots> -->
+    </header>
+    <cover class="header__cover background">
+      <img
+        class="header__cover-image"
+        alt="Логотип проекта"
+        src="/ono-tebe-nado/images/cover.jpg"
+      />
+      <span class ="accent-span">Оно</span>
+      <span class ="accent-span">тебе</span>
+      <span class ="accent-span">надо</span>
+    </cover>
+    <about></about>
+    <footer></footer>
+    <!-- <header__menu></header__menu> — контейнер навигации;
+      <header__links-list></header__links-list> — список ссылок;
+      <header__links-list-item></header__links-list-item> — пункт списка ссылок;
+      <header__links-list-item_no-bullit></header__links-list-item_no-bullit> — вам может потребоваться этот класс, чтобы сделать ссылку без кружочка перед ней
+      <header__link></header__link> — ссылка;
+      <header__link_active></header__link_active> — активная ссылка;
+       <header__logo> — контейнер логотипа;
+<header__logo-image></header__logo-image> — картинка с логотипом;
+<header__address></header__address>  — потребуется, чтобы выравнивать блок с адресом.
+
+
+    — для входной секции;
+    — для секции с карточками;
+   — для секции с информацией об аукционе;
+    <address></address>
+    - для адресов
+
+    . <a href="tel:+70000000">+7(000)000-00-00</a> а для ссылок с адресом почты
+    <a href="mailto:mail@example.com">mail@example.com</a> <br />
+    — он одиночный, отвечает за перенос текста на следующую строку. -->
+  </body>
 </html>
