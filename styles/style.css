@@ -32,6 +32,8 @@ body {
 
 .header_address {
   text-decoration: underline;
+  text-underline-offset: 1px;
+  text-underline-position: under;
 }
 
 address {
@@ -43,7 +45,8 @@ address {
 }
 
 .address {
-  margin-left: 198px;
+  margin-left: 205px;
+  margin-top: -1px;
 }
 
 .header__menu {
@@ -64,6 +67,7 @@ address {
   font-weight: 400;
   line-height: normal;
   text-decoration: underline;
+  text-underline-offset: 1px;
 }
 
 .header__link_active {
@@ -83,7 +87,7 @@ address {
   max-width: 1440px;
   height: 757px;
   flex-shrink: 0;
-  padding-top: 93px;
+  padding-top: 92px;
 }
 
 .header__cover-image {
@@ -93,7 +97,7 @@ address {
 .layer {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
-  top: 95px;
+  top: 92px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -135,22 +139,22 @@ address {
   grid-row-start: 2;
   justify-items: end;
   letter-spacing: 30px;
-  padding-left: 136px;
-  padding-top: 14px;
+  padding-left: 140px;
+  padding-top: 9px;
 }
 .e {
   grid-column-start: 2;
   grid-row-start: 2;
-  margin-left: 446px;
-  margin-top: 10px;
+  margin-left: 448px;
+  margin-top: 9px;
 }
 
 .n {
   grid-column-start: 3;
   grid-row-start: 3;
   justify-items: end;
-  padding-left: 95px;
-  padding-top: 3px;
+  padding-left: 100px;
+  padding-top: 2px;
 }
 
 .ado {
@@ -158,13 +162,28 @@ address {
   grid-row-start: 3;
   justify-items: end;
   letter-spacing: 30px;
-  padding-left: 225px;
+  padding-left: 235px;
+  padding-top: 2px;
 }
 
 .cover__description {
   display: flex;
   padding-top: 125px;
   align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 16.5px;
+}
+
+.cover__description-text {
+  margin-left: 422px;
+}
+
+.cover__description-text-2 {
+  margin-left: 30px;
 }
 
 .bet-button {
@@ -173,24 +192,14 @@ address {
   width: 257px;
   height: 52px;
   flex-shrink: 0;
-  margin-left: 82px;
+  margin-left: 79px;
   background-color: rgba(0, 0, 0, 0);
-
-  color: #FFF;
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
 }
 
-.cover__description-text {
-  color: #FFF;
-  text-align: center;
-  font-size: 22px;
-  font-style: normal;
-  margin-left: 422px;
-  text-transform: uppercase;
-  word-spacing: 16.5px;
-}
+
 
 .background_about {
   grid-template-columns: 430px 2fr;
@@ -229,7 +238,6 @@ address {
 }
 
 .about__title {
-  background-color: blueviolet;
   color: #000;
   font-size: 40px;
   font-style: normal;
@@ -243,11 +251,9 @@ address {
 
 .about__text {
   margin-top: 100px;
-  background-color: bisque;
   font-size: 20px;
-  letter-spacing: 0.4px;
   font-weight: 400;
-  margin-right: 20px;
+  margin-right: 21px;
   line-height: 24px;
 }
 
@@ -272,11 +278,11 @@ address {
   list-style-type: none;
   text-decoration: none;
   text-underline-position: under;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 24px;
   width: 240px;
   margin-left: 50px;
-  letter-spacing: 0.16px;
+  margin-top: 4px;
 }
 
 .footer__address-link {
@@ -300,10 +306,8 @@ address {
   justify-content: center;
   text-align: center;
   height: 100%;
-
-  /* margin-top: 6px; */
-  line-height: 21.3px;
-  letter-spacing: 1.5px;
+  font-size: 18px;
+  line-height: 23px;
   text-underline-position: under;
 }
 
@@ -311,7 +315,8 @@ address {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  margin-left: 144px;
+  margin-left: 141px;
+  margin-top: 3px;
 }
 
 .footer__social-link {
@@ -340,10 +345,9 @@ address {
 
 .lots__look-more-link {
   color: #000;
-
-  font-size: 21px;
-  margin-left: 91px;
-  margin-top: 31px;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-top: 28px;
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -374,7 +378,7 @@ address {
   position: relative;
 }
 
-.lots__card-list-item-film{
+.lots__card-list-item-film {
   margin-left: 50px;
   margin-right: 12.5px;
 }
@@ -417,7 +421,6 @@ address {
   padding-right: 40px;
   font-size: 22px;
   font-style: normal;
-  letter-spacing: -0.2px;
   font-weight: 700;
   line-height: 120%;
   text-decoration-line: underline;
@@ -428,13 +431,11 @@ address {
 .card__text {
   z-index: 2;
   color: #FFF;
-
-  margin-bottom: 48px;
+  margin-bottom: 52px;
   margin-right: 40px;
-  margin-left: 41px;
-
+  margin-left: 40px;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 24px */
+  line-height: 120%;
 }
