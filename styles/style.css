@@ -159,7 +159,7 @@ a {
   display: flex;
   padding-top: 606px;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -255,7 +255,6 @@ a {
   padding-top: 178px;
 }
 
-
 .footer__address {
   list-style-type: none;
   text-decoration: none;
@@ -268,7 +267,7 @@ a {
 
 .footer__address-link {
   text-underline-offset: 1px;
-  text-decoration: underline; 
+  text-decoration: underline;
   text-underline-position: under;
 }
 
@@ -306,7 +305,6 @@ a {
   list-style: none;
   height: 48px;
 }
-
 
 .lots__heading {
   color: #000;
