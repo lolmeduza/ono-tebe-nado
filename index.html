@@ -45,18 +45,22 @@
       <section class="header__cover">
         <div class="overlay"></div>
         <h1 class="words">
-          <span class="accent-span q">ОН</span>
-          <span class="accent-span w">О</span>
-          <span class="accent-span e">ТЕБ</span>
-          <span class="accent-span r">Е</span>
-          <span class="accent-span t">Н</span>
-          <span class="accent-span y">АД</span>
-          <span class="accent-span u">О</span>
+          <span class="accent-span gap">
+            он<span class="spacing">о</span>
+          </span>
+          <span class="accent-span mid gap">
+            теб<span class="accent-span">е</span>
+          </span>
 
+          <span class="accent-span mid_end">
+            <span class="spacing">н</span>ад<span>о</span>
+          </span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
-            Аукцион вещей, в которые никто не   верил
+            Аукцион вещей, в которые никто не верил
+          </p>
+
           <p>
             <button type="button" class="bet-button">Сделать ставку</button>
           </p>
@@ -86,17 +90,17 @@
             <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <span class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </span>
-                <span class="card__text"
-                  >Объёмом почти в тысячу страниц. Иногда без знаков препинания
-                  и с переходами на древнеанглийский. В ней одновременно
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
                   начиная с античных времён. И это всё накладывается на
                   эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                  Джеймса Джойса?</span
-                >
+                  Джеймса Джойса?
+                </p>
               </article>
             </a>
           </li>
@@ -105,15 +109,15 @@
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <span class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </span>
-                <span class="card__text"
-                  >Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков… Сколько бы вы на такое поставили, если бы не знали,
-                  что это — одна из революционных работ Кандинского?</span
-                >
+                  что это — одна из революционных работ Кандинского?
+                </p>
               </article>
             </a>
           </li>
@@ -133,14 +137,14 @@
         </div>
         <div class="about__column about__column-right">
           <h2 class="about__title">об аукционе</h2>
-          <p class="about__text">
+          <p class="about__text about__text-top">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
             картина, которую может нарисовать даже ребёнок? Кому нужны все эти
             странные вещи, созданные любителями?
           </p>
-          <p class="about__textt">
+          <p class="about__text about__text-bottom">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
             Когда-то они казались просто неудачными. Но, несмотря на критику,
@@ -179,7 +183,11 @@
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" alt="YouTube" src="images/yt.svg" />
+            <img
+              class="footer__social-icon"
+              alt="YouTube"
+              src="images/yt.svg"
+            />
           </a>
         </li>
         <li class="footer__social-list-item">
