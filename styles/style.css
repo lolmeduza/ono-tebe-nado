@@ -103,9 +103,10 @@ a {
   padding-left: 2em;
   padding-top: 1.9em;
   letter-spacing: 30px;
-  height: 390px;
+  max-height: 390px;
   row-gap: 8px;
   column-gap: 78px;
+  z-index: 1;
 }
 
 .accent-span {
@@ -183,6 +184,7 @@ a {
 }
 
 .about__column-right {
+  gap: 100px;
   margin-left: 25px;
 }
 
@@ -218,14 +220,9 @@ a {
   margin-right: 21px;
   line-height: 24px;
   font-size: 20px;
-}
-
-.about__text-top {
-  margin-top: 101px;
-}
-
-.about__text-bottom {
-  margin-top: 27px;
+  flex-direction: column;
+  gap: 25px;
+  display: flex;
 }
 
 .footer {
@@ -337,7 +334,7 @@ a {
 
 .card {
   height: 100%;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
