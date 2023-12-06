@@ -98,15 +98,13 @@ a {
 .words {
   display: grid;
   margin-top: 120px;
-  justify-content: start;
-  align-items: end;
   padding-left: 2em;
   padding-top: 1.9em;
   letter-spacing: 30px;
-  max-height: 390px;
-  row-gap: 8px;
-  column-gap: 78px;
+  row-gap: 7px;
+  column-gap: 60px;
   z-index: 1;
+  grid-template-rows: min-content min-content min-content;
 }
 
 .accent-span {
